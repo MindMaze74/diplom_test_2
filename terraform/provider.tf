@@ -1,8 +1,10 @@
+# Провайдеры Terraform
 terraform {
   required_providers {
     yandex = { source = "yandex-cloud/yandex", version = "~> 0.95.0" }
     time   = { source = "hashicorp/time", version = "~> 0.9.0" }
     local  = { source = "hashicorp/local", version = "~> 2.4.0" }
+    null   = { source = "hashicorp/null", version = "~> 3.2.0" }
   }
 }
 
