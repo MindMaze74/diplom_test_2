@@ -1,4 +1,3 @@
-# Провайдеры Terraform
 terraform {
   required_providers {
     yandex = { source = "yandex-cloud/yandex", version = "~> 0.95.0" }
@@ -7,7 +6,9 @@ terraform {
   }
 }
 
-data "yandex_compute_image" "ubuntu" { family = "ubuntu-2204-lts" }
+data "yandex_compute_image" "ubuntu" {
+  family = "ubuntu-2204-lts"
+}
 
 provider "yandex" {
   service_account_key_file = var.service_account_key_file
