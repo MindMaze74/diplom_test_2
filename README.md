@@ -599,7 +599,7 @@ ssh-copy-id -i ~/.ssh/diplom.pub ubuntu@<web1_private_ip>
 ```bash
 #Ручной запуск бэкапа в S3:
 sudo /usr/local/bin/s3_backup.sh
-```
+
 #Проверка бэкапов в бакете:
 aws s3 ls s3://diplom-project-backup-<folder_id>/ --endpoint-url=https://storage.yandexcloud.net
 ```
