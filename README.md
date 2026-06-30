@@ -348,7 +348,6 @@ graph TD
     Elasticsearch -.->|"Доступ в интернет"| NAT
     Kibana -.->|"Доступ в интернет"| NAT
     Bastion -.->|"Доступ в интернет"| NAT
-
 ```
 
 
