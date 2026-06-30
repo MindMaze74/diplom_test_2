@@ -596,8 +596,8 @@ ssh-copy-id -i ~/.ssh/diplom.pub ubuntu@<web1_private_ip>
 ```
 
 ### Резервное копирование
-#Ручной запуск бэкапа в S3:
 ```bash
+#Ручной запуск бэкапа в S3:
 sudo /usr/local/bin/s3_backup.sh
 ```
 #Проверка бэкапов в бакете:
